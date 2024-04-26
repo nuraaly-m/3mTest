@@ -1,4 +1,4 @@
-from aiogram import Bot, Dispatcher
+from aiogram import Bot, Dispatcher, types
 from dotenv import load_dotenv
 from os import getenv
 from pathlib import Path
@@ -11,3 +11,4 @@ dp = Dispatcher()
 database = Database(
     Path(__file__).parent / "db.sqlite"
 )
+
